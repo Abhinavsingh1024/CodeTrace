@@ -1,0 +1,22 @@
+# Ignores compiled, environment, and dependency artifacts for both frontend and backend
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+node_modules/
+dist/
+build/
+*.egg-info/
+.DS_Store
+*.log
+
+# JPlag jar and results (too large for GitHub)
+backend/jplag/jplag.jar
+backend/jplag/results/
+
+# Alembic cache
+backend/alembic/__pycache__/
+
+# Frontend build
+frontend/dist/
